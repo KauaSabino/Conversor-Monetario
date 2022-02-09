@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Orelega+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="./src/img/icon-dolar.webp" type="image/x-icon">
+    <title>Conversor Monetario</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Cotação Monetária</h1>
+    </header>
+    <main>
+        <div id="container">
+            <div id="coins">
+                <div class="coin" id="coin1">
+                    <div class="boxSelect">
+                        <select name="" id="selectCoin"onChange="verificar(this.options[this.selectedIndex].value)">
+                            <option value="Dollar" class="teste" onchange="verificar()" selected>Dollar</option>
+                            <option value="Bitcoin" class="teste">Bitcoin</option>
+                            <option value="Euro" class="teste">Euro</option>
+                        </select>
+                    </div>
+                    <div class="iconCoin">
+                        <img src="./src/img/icon-dolar.webp" alt="" id="currencyIcon">
+                    </div>
+                    <div class="boxInput">
+                        <input type="text" value="1.00" id="initialValue" class="quotation">
+                    </div>
+                </div>
+                <div class="coin" id="coin2">
+                    <div class="boxSelect">
+                        <select name="" id="">
+                            <option value="valor1" selected>Real</option>
+                        </select>
+                    </div>
+                    <div class="iconCoin">
+                        <img src="./src/img/icon-dolar.webp" alt="">
+                    </div>
+                    <div class="boxInput">
+                        <input type="text" id="convertedValue" class="quotation" value="" readonly>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="button">
+                <input type="button" value="Converter" id="submitButton" onclick="verificar()">
+            </div>
+        </div>
+    </main>
+    <!-- 
+
+        Code by Sabino
+
+             /\_
+          __/ `.\__
+               ___/   
+             /    
+          Mercurio
+    -->
+    <script src="./src/js/script.js"></script>
+</body>
+</html>

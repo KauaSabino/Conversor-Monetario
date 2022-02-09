@@ -1,0 +1,890 @@
+@media only screen and (max-device-width: 384px) {
+    * {
+      font-family: "Libre Baskerville", serif;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    html {
+      height: 100%;
+      color: white;
+    }
+    body {
+      height: 100%;
+      width: 100vw;
+      background: linear-gradient(243.18deg, #141d26 0%, #34474e 100%) no-repeat
+        100%;
+      background-attachment: fixed;
+    }
+    img {
+      margin: 10px 0;
+      filter: drop-shadow(0px 0px 40px rgba(255, 255, 255, 0.25));
+    }
+    main,
+    header {
+      margin: 0%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+    }
+    header {
+      height: 10%;
+    }
+    main {
+      height: 80%;
+    }
+    h1 {
+      font-family: Noto Sans, sans-serif;
+      font-size: 20px;
+    }
+    select {
+      width: 100%;
+      height: 30px;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 20px;
+    }
+    option {
+      color: #ffffff;
+      background: rgb(180, 180, 180);
+    }
+    option:hover {
+      background: black;
+    }
+    img {
+      width: 100%;
+    }
+    .boxSelect {
+     margin: 0;
+     width: 100%
+    }
+    #selectCoin{
+        width: 100%;
+    }
+    .iconCoin {
+      width: 100%;
+    }
+    .boxInput {
+      width: 95%;
+    }
+    #submitButton {
+      color: white;
+      font-size: 18px;
+      border: none;
+      width: 45%;
+      height: 40px;
+      background: #1fbb23;
+      box-shadow: 0px 5px 5px rgba(186, 186, 186, 0.2);
+      border-radius: 25px;
+    }
+    #container {
+      width: 95%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      height: 88%;
+    }
+    #coins {
+      display: flex;
+      flex-direction: row;
+      column-gap: 4%;
+      width: 100%;
+      height: 60vh;
+    }
+    .coin {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 48%;
+      height: 100%;
+    }
+    #button {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #submitButton {
+        transition-duration: 200ms;
+      font-family: Noto Sans, sans-serif;
+      background: linear-gradient(83.77deg, #27a09e 0%, #30ce88 100%);
+    }
+    #submitButton:active {
+      transition-duration: 200ms;
+      background: linear-gradient(
+        83.77deg,
+        #7de393 0%,
+        #30cd88 49.91%,
+        #30ce88 100%
+      );
+      filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.082));
+    }
+    .quotation {
+      width: 100%;
+      font-size: 20px;
+      text-align: center;
+    }
+}
+
+@media only screen and (min-device-width: 385px) and (max-device-width: 480px) {
+  * {
+    font-family: "Libre Baskerville", serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    height: 100%;
+    color: white;
+  }
+  body {
+    height: 100%;
+    width: 100vw;
+    background: linear-gradient(243.18deg, #141d26 0%, #34474e 100%) no-repeat 100%;
+    background-attachment: fixed;
+  }
+  img {
+    margin: 10px 0;
+  }
+  main,
+  header {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  header {
+    height: 10%;
+  }
+  main {
+    height: 80%;
+  }
+  h1 {
+    font-family: Noto Sans, sans-serif;
+    font-size: 20px;
+  }
+  select {
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+  }
+  option {
+    color: #ffffff;
+    background: rgb(180, 180, 180);
+  }
+  option:hover {
+    background: black;
+  }
+  img {
+    width: 100%;
+  }
+  .boxSelect {
+    width: 60%;
+  }
+  .iconCoin {
+    width: 100%;
+  }
+  .boxInput {
+    width: 95%;
+  }
+  #submitButton {
+    color: white;
+    font-size: 18px;
+    border: none;
+    width: 45%;
+    height: 40px;
+    background: #1fbb23;
+    box-shadow: 0px 5px 5px rgba(186, 186, 186, 0.2);
+    border-radius: 25px;
+  }
+  #container {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 88%;
+  }
+  #coins {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4%;
+    width: 100%;
+    height: 60vh;
+  }
+  .coin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    height: 100%;
+  }
+  #button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #submitButton {
+    transition-duration: 200ms;
+    font-family: Noto Sans, sans-serif;
+    background: linear-gradient(83.77deg, #27a09e 0%, #30ce88 100%);
+  }
+  #submitButton:active {
+    transition-duration: 200ms;
+    background: linear-gradient(
+      83.77deg,
+      #7de393 0%,
+      #30cd88 49.91%,
+      #30ce88 100%
+    );
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.082));
+  }
+  .quotation {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 650px) {
+  * {
+    font-family: "Libre Baskerville", serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    height: 100%;
+    color: white;
+  }
+  body {
+    height: 100%;
+    width: 100vw;
+    background: linear-gradient(243.18deg, #141d26 0%, #34474e 100%) no-repeat 100%;
+    background-attachment: fixed;
+  }
+  main,
+  header {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  header {
+    height: 10vh;
+  }
+  main {
+    height: 80vh;
+  }
+  h1 {
+    font-family: Noto Sans, sans-serif;
+    font-size: 25px;
+  }
+  select {
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+  }
+  option {
+    color: #ffffff;
+    background: rgb(180, 180, 180);
+  }
+  option:hover {
+    background: black;
+  }
+  img {
+    width: 100%;
+  }
+  .boxSelect {
+    width: 60%;
+  }
+  .iconCoin {
+    width: 95%;
+  }
+  .boxInput {
+    width: 95%;
+  }
+  #submitButton {
+    color: white;
+    font-size: 18px;
+    border: none;
+    width: 45%;
+    height: 40px;
+    background: #1fbb23;
+    box-shadow: 0px 5px 5px rgba(186, 186, 186, 0.2);
+    border-radius: 25px;
+  }
+  #container {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 88%;
+  }
+  #coins {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4%;
+    width: 100%;
+    height: 60vh;
+  }
+  .coin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    height: 100%;
+  }
+  #button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #submitButton {
+    font-family: Noto Sans, sans-serif;
+    font-size: 23px;
+    background: linear-gradient(83.77deg, #27a09e 0%, #30ce88 100%);
+  }
+  #submitButton:active {
+    transition-duration: 200ms;
+    background: linear-gradient(
+      83.77deg,
+      #7de393 0%,
+      #30cd88 49.91%,
+      #30ce88 100%
+    );
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.082));
+  }
+  .quotation {
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-device-width: 651px) and (max-device-width: 840px) {
+    * {
+      font-family: "Libre Baskerville", serif;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    html {
+      height: 100%;
+      color: white;
+    }
+    body {
+      height: 100%;
+      width: 100vw;
+      background: linear-gradient(243.18deg, #141d26 0%, #34474e 100%) no-repeat
+        100%;
+      background-attachment: fixed;
+    }
+    main,
+    header {
+      margin: 0%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+    }
+    header {
+      height: 10vh;
+    }
+    main {
+      height: 80vh;
+    }
+    h1 {
+      font-family: Noto Sans, sans-serif;
+      font-size: 30px;
+    }
+    select {
+      width: 100%;
+      height: 40px;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 26px;
+    }
+    option {
+      color: #ffffff;
+      background: rgb(180, 180, 180);
+    }
+    option:hover {
+      background: black;
+    }
+    img {
+      filter: drop-shadow(0px 0px 40px rgba(255, 255, 255, 0.25));
+      width: 100%;
+    }
+    .boxSelect {
+      width: 60%;
+    }
+    .iconCoin {
+      width: 90%;
+    }
+    .boxInput {
+      width: 90%;
+    }
+    #submitButton {
+      color: white;
+      font-size: 18px;
+      border: none;
+      width: 45%;
+      height: 40px;
+      background: #1fbb23;
+      box-shadow: 0px 5px 5px rgba(186, 186, 186, 0.2);
+      border-radius: 25px;
+    }
+    #container {
+      width: 95%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      height: 88%;
+    }
+    #coins {
+      display: flex;
+      flex-direction: row;
+      column-gap: 4%;
+      width: 100%;
+      height: 60vh;
+    }
+    .coin {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 48%;
+      height: 100%;
+    }
+    #button {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #submitButton {
+      font-family: Noto Sans, sans-serif;
+      font-size: 23px;
+      background: linear-gradient(83.77deg, #27a09e 0%, #30ce88 100%);
+    }
+    #submitButton:active {
+      transition-duration: 200ms;
+      background: linear-gradient(
+        83.77deg,
+        #7de393 0%,
+        #30cd88 49.91%,
+        #30ce88 100%
+      );
+      filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.082));
+    }
+    .quotation {
+      height: 30px;
+      width: 100%;
+      font-size: 18px;
+      text-align: center;
+    }
+}
+  
+@media only screen and (min-device-width: 841px) and (max-device-width: 960px) {
+    * {
+      font-family: "Libre Baskerville", serif;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    html {
+      height: 100%;
+      color: white;
+    }
+    body {
+      height: 100%;
+      width: 100vw;
+      background: linear-gradient(243.18deg, #141d26 0%, #34474e 100%) no-repeat
+        100%;
+      background-attachment: fixed;
+    }
+    main,
+    header {
+      margin: 0%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100vw;
+    }
+    header {
+      height: 10vh;
+    }
+    main {
+      width: 100vw;
+      height: 80vh;
+    }
+    h1 {
+      font-family: Noto Sans, sans-serif;
+      font-size: 30px;
+    }
+    select {
+      width: 100%;
+      height: 40px;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 20px;
+    }
+    option {
+      color: #ffffff;
+      background: rgb(180, 180, 180);
+    }
+    option:hover {
+      background: black;
+    }
+    img {
+      filter: drop-shadow(0px 0px 40px rgba(255, 255, 255, 0.25));
+      width: 100%;
+    }
+    .boxSelect {
+      width: 60%;
+    }
+    .iconCoin {
+      width: 85%;
+    }
+    .boxInput {
+      width: 85%;
+    }
+    #submitButton {
+      color: white;
+      font-size: 18px;
+      border: none;
+      width: 35%;
+      height: 40px;
+      background: #1fbb23;
+      box-shadow: 0px 5px 5px rgba(186, 186, 186, 0.2);
+      border-radius: 25px;
+    }
+    #container {
+      width: 95%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      height: 88%;
+    }
+    #coins {
+      display: flex;
+      flex-direction: row;
+      column-gap: 4%;
+      width: 100%;
+      height: 60vh;
+    }
+    .coin {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 48%;
+      height: 100%;
+    }
+    #button {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #submitButton {
+      font-family: Noto Sans, sans-serif;
+      font-size: 23px;
+      background: linear-gradient(83.77deg, #27a09e 0%, #30ce88 100%);
+    }
+    #submitButton:active {
+      transition-duration: 200ms;
+      background: linear-gradient(
+        83.77deg,
+        #7de393 0%,
+        #30cd88 49.91%,
+        #30ce88 100%
+      );
+      filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.082));
+    }
+    .quotation {
+      height: 30px;
+      width: 100%;
+      font-size: 18px;
+      text-align: center;
+    }
+}
+
+@media only screen and (min-device-width: 961px) and (max-device-width: 1150px) {
+  * {
+    font-family: "Libre Baskerville", serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    height: 100%;
+    color: white;
+  }
+  body {
+    height: 100%;
+    width: 100vw;
+    background: linear-gradient(243.18deg, #141d26 0%, #34474e 100%) no-repeat
+      100%;
+    background-attachment: fixed;
+  }
+  main,
+  header {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+  }
+  header {
+    height: 10vh;
+  }
+  main {
+    width: 100vw;
+    height: 80vh;
+  }
+  h1 {
+    font-family: Noto Sans, sans-serif;
+    font-size: 30px;
+  }
+  select {
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 26px;
+  }
+  option {
+    color: #ffffff;
+    background: rgb(180, 180, 180);
+  }
+  option:hover {
+    background: black;
+  }
+  img {
+    width: 100%;
+    filter: drop-shadow(0px 0px 40px rgba(255, 255, 255, 0.25));
+  }
+  .boxSelect {
+    width: 40%;
+  }
+  .iconCoin {
+    width: 60%;
+  }
+  .boxInput {
+    width: 60%;
+  }
+  #submitButton {
+    color: white;
+    font-size: 18px;
+    border: none;
+    width: 30%;
+    height: 40px;
+    background: #1fbb23;
+    box-shadow: 0px 5px 5px rgba(186, 186, 186, 0.2);
+    border-radius: 25px;
+  }
+  #container {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: white 2px solid;
+    height: 88%;
+  }
+  #coins {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4%;
+    width: 100%;
+    height: 60vh;
+  }
+  .coin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: purple 2px solid;
+    width: 48%;
+    height: 100%;
+  }
+  #button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #submitButton {
+    font-family: Noto Sans, sans-serif;
+    font-size: 23px;
+    background: linear-gradient(83.77deg, #27a09e 0%, #30ce88 100%);
+  }
+  #submitButton:active {
+    transition-duration: 200ms;
+    background: linear-gradient(
+      83.77deg,
+      #7de393 0%,
+      #30cd88 49.91%,
+      #30ce88 100%
+    );
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.082));
+  }
+  .quotation {
+    height: 30px;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-device-width: 1151px) {
+  * {
+    font-family: "Libre Baskerville", serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    height: 100%;
+    color: white;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    background: linear-gradient(243.18deg, #141d26 0%, #34474e 100%) no-repeat
+      100%;
+    background-attachment: fixed;
+  }
+  img {
+    margin: 10px 0;
+    filter: drop-shadow(0px 0px 40px rgba(255, 255, 255, 0.25));
+  }
+  main,
+  header {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  main {
+
+    height: 600px;
+  }
+  h1 {
+    font-family: Noto Sans, sans-serif;
+    font-size: 45px;
+  }
+  select {
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+  }
+  option {
+    color: #ffffff;
+    background: rgb(180, 180, 180);
+  }
+  option:hover {
+    background: black;
+  }
+  img {
+    width: 100%;
+  }
+  .boxSelect {
+    width: 30%;
+  }
+  .iconCoin {
+    width: 50%;
+  }
+  .boxInput {
+    width: 50%;
+  }
+  #submitButton {
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 170px;
+    height: 50px;
+    background: #1fbb23;
+    box-shadow: 0px 5px 5px rgba(186, 186, 186, 0.2);
+    border-radius: 25px;
+  }
+  #container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #coins {
+    display: flex;
+    width: 100%;
+  }
+  .coin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 400px;
+  }
+  #button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #submitButton {
+    font-family: Noto Sans, sans-serif;
+    background: linear-gradient(83.77deg, #27a09e 0%, #30ce88 100%);
+  }
+  #submitButton:active {
+    transition-duration: 200ms;
+    background: linear-gradient(83.77deg,#7de393 0%,#30cd88 49.91%,#30ce88 100%);
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.082));
+  }
+  .quotation {
+    width: 100%;
+    font-size: 20px;
+    height: 35px;
+    text-align: center;
+  }
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+}
+
+  
